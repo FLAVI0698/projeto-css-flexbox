@@ -5,7 +5,8 @@ body {
     height: 100vh;
 }
 
-.header img {
+.header 
+img {
     width: 220px;
 }
 
@@ -15,21 +16,25 @@ body {
     gap: 50px;
 }
 
-.container .description {
+.container 
+.description {
     padding-top: 40px;
     max-width: 700px;
 }
 
-.container .description .title{
-    font-family: 'Poppins';
+.container 
+.description 
+.title {
     font-size: 40px;
     font-weight: 500;
     color: #fff;
-    text-transform: capitalize; 
-    margin-bottom: 15px;  
+    text-transform: capitalize;
+    margin-bottom: 15px;
 }
 
-.container .description p{
+.container 
+.description 
+p {
     font-family: 'Open Sans';
     font-weight: 300;
     color: #fff;
@@ -37,7 +42,9 @@ body {
     font-size: 18px;
 }
 
-.container .description .btn-register {
+.container 
+.description 
+.btn-register {
     display: inline-block;
     background-color: #fff;
     color: hsl(257, 40%, 49%);
@@ -48,26 +55,35 @@ body {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
 
+.container 
+.description 
+.btn-register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
 .footer {
     display: flex;
     justify-content: flex-end;
-}
-
-.footer .icons {
-    display: flex;    
-    justify-content: center;
-    align-content: center;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    margin: 8px;
-    width: 42px; height: 42px;
+    padding: 20px;
 }
 
 .footer .icons a {
-    padding: 10px;
-
+    margin-left: 15px;
 }
 
 .footer .icons a i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 42px; height: 42px;
+    padding: 11px;
+    text-align: center;
     font-size: 20px;
+}
+
+.footer 
+.icons 
+a:hover i {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%)
 }
